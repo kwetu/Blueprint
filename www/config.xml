@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.restaurant.start"
+        versionCode = "10" 
+        version     = "1.0.0" >
+    <name>Blueprint</name>
+    <description>
+        Radio app blueprint.
+    </description>
+    <author href="https://kwetudesign.com" email="kwetudesign@gmail.com">
+        Kwetu Design 
+    </author>
+    <access origin="*" />
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <plugin name="org.apache.cordova.statusbar" source="pgb" />
+    <plugin name="org.apache.cordova.network-information" source="pgb" />
+    <plugin name="org.apache.cordova.file" source="pgb" />
+    <plugin name="org.apache.cordova.file-transfer" source="pgb" />
+</widget>
